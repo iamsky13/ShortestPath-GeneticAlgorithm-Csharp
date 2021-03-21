@@ -45,7 +45,7 @@ namespace ShortestPathGenetic
         {
             //initialize total nodes for random nodes
             //this will work only if you set isGraph flag false
-            int totalNodes = 20;
+            int totalNodes = 10;
             
             int startNodeIndex = 0;
             int DestinationNodeIndex = 5;
@@ -60,7 +60,7 @@ namespace ShortestPathGenetic
             }
             await Task.Factory.StartNew(async () =>
             {
-                int populationSize = 1000;
+                int populationSize = 100;
                 
                 //generate random coordinates 
                 var nodes = geneticAlgService.GenerateNodes(totalNodes, startNodeIndex, DestinationNodeIndex);
