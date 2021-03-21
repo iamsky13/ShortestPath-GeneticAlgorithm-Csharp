@@ -49,7 +49,6 @@ namespace ShortestPathGenetic
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(450, 560);
             this.panel1.TabIndex = 0;
-            this.panel1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseClick);
             // 
             // currentPathLabel
             // 
